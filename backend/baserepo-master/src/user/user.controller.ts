@@ -3,7 +3,8 @@ import { UserService } from './user.service';
 import { BaseController } from 'controller/base.controller';
 import { LoginDto, SignupDto, UpdateMembership } from './dto/user.dto';
 import { User } from 'decorators/user.decorator';
-
+import { ApiTags } from '@nestjs/swagger';
+@ApiTags('user')
 @Controller('')
 export class UserController extends BaseController {
   constructor(private readonly userService: UserService) {

@@ -3,7 +3,7 @@ import { UserService } from './user.service';
 import { UserController } from './user.controller';
 import { PrismaService } from 'service/prisma.service';
 import { JsonWebTokenService } from 'service/jwt.service';
-import { JwtModule, JwtService } from '@nestjs/jwt';
+import { JwtModule } from '@nestjs/jwt';
 import { LoggerMiddleware } from 'middleware/application.middleware';
 
 @Module({
