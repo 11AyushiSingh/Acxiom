@@ -1,0 +1,31 @@
+.product-form {
+    background-color: #2a3f54;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .product-form input,
+  .product-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .product-form input[type="file"] {
+    color: black;
+  }
+  
+  .product-form button {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .product-form button:hover {
+    background-color: #2980b9;
+  }
+  

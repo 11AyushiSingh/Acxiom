@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './login.css';
 
 const VendorLogin = () => {
   const [vendorId, setvendorId] = useState('Vendor');
   const [password, setPassword] = useState('Vendor');
-
+  const navigate = useNavigate();
   const handlevendorIdChange = (event) => {
     setvendorId(event.target.value);
   };
@@ -12,6 +13,10 @@ const VendorLogin = () => {
   const handlePasswordChange = (event) => {
     setPassword(event.target.value);
   };
+  const handleLogin = () => {
+    navigate('/vendor');
+     
+  }
 
   return (
     <div className="container">
@@ -42,7 +47,7 @@ const VendorLogin = () => {
       </div>
       <div className="action-buttons">
         <button className="cancel-button">Cancel</button>
-        <button className="login-button">Login</button>
+        <button className="login-button" onClick={handleLogin}>Login</button>
       </div>
     </div>
   );

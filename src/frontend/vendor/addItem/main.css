@@ -1,0 +1,39 @@
+.app {
+  font-family: Arial, sans-serif;
+  background-color: #2a3f54;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%; /* Adjust width as needed */
+  margin-bottom: 10px; /* Reduce margin bottom */
+}
+
+.header h5 {
+  margin-right: 15%; /* Remove default margin for the heading */
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px; /* Add some space between buttons */
+}
+
+.header-buttons button {
+  padding: 5px 10px; /* Reduce padding */
+  font-size: 14px; /* Reduce font size */
+  cursor: pointer; /* Add cursor pointer for better UX */
+  background-color: #007bff;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 10px; /* Add margin top to create space */
+}
