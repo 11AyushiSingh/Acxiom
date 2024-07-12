@@ -5,15 +5,46 @@ function ProductTable() {
   return (
     <div className="product-table">
       <div className="table-header">
-        <span>Product Image</span>
-        <span>Product Name</span>
-        <span>Product Price</span>
-        <span>Action</span>
+        <span>
+         <button>
+         Product Image
+        </button> 
+        </span>
+        <span>
+         <button>
+         Product Name
+        </button> 
+        </span>
+        <span>
+         <button>
+         Product Price
+        </button> 
+        </span>
+        <span>
+         <button>
+         Action
+        </button> 
+        </span>
+        
       </div>
       <div className="table-row">
-        <span>Image</span>
-        <span>Image Name</span>
-        <span>Rs/-</span>
+      <span>
+         <button>
+         Image
+        </button> 
+        </span>
+        <span>
+         <button>
+         Image Name
+        </button> 
+        </span>
+        <span>
+         <button>
+         Rs/-
+        </button> 
+        </span>
+
+
         <span>
           <button>Delete</button>
           <button>Update</button>

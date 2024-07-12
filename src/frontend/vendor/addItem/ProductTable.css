@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
+    margin-right: 5%;
   }
   
   .table-header span,
@@ -22,7 +23,7 @@
     background-color: #e74c3c;
     border: none;
     padding: 5px 10px;
-    margin: 0 5px;
+    margin-bottom: 5%;
     border-radius: 5px;
     cursor: pointer;
     color: white;

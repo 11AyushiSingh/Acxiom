@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #007bff;
+}
+
+.user-portal-header {
+    background-color: gray;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.user-portal-header h3 {
+    color: white;
+    margin: 0;
+}
+
+.user-portal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #339dff;
+    height: 40vh;
+}
+
+.user-portal-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.portal-button {
+    margin: 0 10px; /* Horizontal spacing between buttons */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: gray; /* Ensures buttons are gray */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 150px; /* Fixed width to ensure all buttons are the same size */
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.portal-button:hover {
+    background-color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content .portal-button {
+    width: 100%; /* Ensure dropdown buttons take the full width of the dropdown container */
+}
+
+.dropdown-content .portal-button:hover {
+    background-color: black;
+}

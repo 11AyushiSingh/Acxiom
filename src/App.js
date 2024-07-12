@@ -10,6 +10,7 @@ import AdminSignUp from './frontend/admin/signup/signup';
 import UserSignUp from './frontend/user/signup/signup';
 import Vendor from './frontend/vendor/afterlogin/vendor';
 import Main from './frontend/vendor/addItem/main';
+import UserPortal from './frontend/user/userProtal/userPortal';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/userSignUp' element= {<UserSignUp/>}/>
           <Route path='/vendor' element= {<Vendor/>}/>
           <Route path='/main' element = {<Main/>}/>
+          <Route path='/userPortal' element = {<UserPortal/>}/>
         </Routes>
       </BrowserRouter>
     </div>
